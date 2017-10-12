@@ -26,7 +26,7 @@ class XMLParseController
      * @param Request $request
      * @return BinaryFileResponse
      */
-    public function store(Request $request)
+    public function store(Request $request): BinaryFileResponse
     {
         $categories = Category::all();
 
